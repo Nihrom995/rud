@@ -1,0 +1,27 @@
+.navbar{
+  background-color: transparent;
+  z-index: 999;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: -57px;
+  border-bottom: 1px solid rgba(255,255,255,.15);
+  transition: 1s;
+
+  &-brand{
+    font-weight: 700;
+    color:$white !important;
+  }
+
+  .nav-link{
+    font-weight: 400;
+  }
+}
+
+.navbar.sticky-top{
+  background-color: #010101;
+  width: 100%;
+  max-width: 100%;
+  border-bottom: 0px;
+}
+

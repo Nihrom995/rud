@@ -1,0 +1,30 @@
+.wrap-container{
+  max-width: 1300px;
+  margin: 80px auto 5px auto;
+  background-color: #010101;
+  border-radius: 20px;
+  box-shadow: 0 0  100px 10px #313027;
+
+}
+.fa{
+  text-shadow: none;
+}
+
+.copyright{
+  color:#171717;
+  text-shadow: none;
+  font-weight: 400;
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+
+@media (max-width: 1300px) {
+  .wrap-container{
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 0;
+  }
+
+}

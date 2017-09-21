@@ -1,0 +1,21 @@
+.services{
+  background: url("../images/services_bg.jpg") bottom right no-repeat;
+  background-size: contain;
+
+  &-list{
+    margin-top: 3rem;
+
+    li{
+      border-bottom: 1px solid #252525;
+      box-shadow: 0 0 1px #000;
+      font-size: .98rem;
+      padding: .4rem 0;
+    }
+
+    li:last-child{
+      border-bottom: none;
+    }
+  }
+}
+
+

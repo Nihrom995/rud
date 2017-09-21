@@ -1,0 +1,56 @@
+section.hero(id="hero")
+    div(id="heroCarousel" class="carousel slide" data-ride="carousel")
+        ol.carousel-indicators
+            li(data-target="#heroCarousel" data-slide-to="0" class="active")
+            li(data-target="#heroCarousel" data-slide-to="1")
+            li(data-target="#heroCarousel" data-slide-to="2")
+
+
+        .carousel-inner
+            .carousel-item.active
+                img(class="d-block w-100" src="images/slider/slide.jpg" data-holder-rendered="true")
+                .carousel-caption.d-none.d-md-block
+                    h1.title
+                        |"ДетейлингРудь"
+                    p
+                        |Eдинственная настоящая студия детейлинга
+                        br
+                        |в Благовещенске, с полным наполнением
+                        br
+                        |внутри и снаружи.
+
+            .carousel-item
+                img(class="d-block w-100" src="images/slider/slide2.jpg" data-holder-rendered="true")
+                .carousel-caption.d-none.d-md-block
+                    h2.title Высокое Качество
+                    p
+                        |Мы делаем наших клиентов успешными,
+                        br
+                        |даём им ощущение новой машины
+                        br
+                        |по доступной цене.
+
+            .carousel-item
+                img(class="d-block w-100" src="images/slider/slide3.jpg" data-holder-rendered="true")
+                .carousel-caption.d-none.d-md-block
+                    h2.title Миссия нашей компании
+                    p
+                        |Вдохновлять людей становиться перфекционистами,
+                        br
+                        |любить и уважать свои машины.
+                        br
+                        |Сохранить состояние и стоимость нового автомобиля
+                        br
+                        |через стабильный и профессиональный уход.
+
+
+
+        .carousel-controls
+            a(class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev")
+                i(class="fa fa-long-arrow-left fa-2x" aria-hidden="true")
+                span.sr-only Previous
+
+            a(class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next")
+                i(class="fa fa-long-arrow-right fa-2x" aria-hidden="true")
+                span(class="sr-only") Next
+

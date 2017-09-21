@@ -1,0 +1,19 @@
+.about{
+  &-logo{
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .block-icon{
+      .icon-tools{
+        @include sprite($tools);
+      }
+      .icon-garage{
+        @include sprite($garage);
+      }
+      .icon-mechanic{
+        @include sprite($mechanic);
+      }
+  }
+}

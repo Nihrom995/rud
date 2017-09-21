@@ -1,0 +1,47 @@
+.gallery{
+
+  .col-lg-6{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .fancybox-item{
+    position: relative;
+    width: 50%;
+
+    img{
+      filter:#{"grayscale(#{100%})"};
+      max-width: 100%;
+      transition: .4s;
+      width: 100%;
+    }
+
+    /* .overflow{
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       transition: .5s;
+       z-index: 2;
+     }
+
+     .overflow.show{
+       opacity: 1;
+       background: rgba(0,0,0,.5);
+     }*/
+
+    &:hover{
+      img{
+        transform: scale(1.07);
+        box-shadow: 0 0 20px rgba(1,1,1,.7);
+        position: relative;
+        z-index: 12;
+        filter:#{"grayscale(#{0%})"};
+      }
+      .overflow.show{
+        opacity: 0;
+      }
+    }
+  }
+}
