@@ -3,6 +3,7 @@
  */
 $(document).ready(function() {
 
+    $('[data-toggle="tooltip"]').tooltip();
 
     /* ---------------------------Use: Nav auto hide jQuery----------------------- */
     
@@ -15,4 +16,10 @@ $(document).ready(function() {
             $('.navbar ').removeClass('bottom');
         }
     });
+
+    function openOffer() {
+        $('#offerModal').modal('show');
+    }
+
+    setTimeout(openOffer, 3000);
 });

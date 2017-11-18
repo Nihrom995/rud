@@ -24,3 +24,23 @@ footer.footer.mt-6.pb-6(id="contacts")
                             br
                             .h5 Instagram:&nbsp
                                 a(href="https://www.instagram.com/detailing_rud/" target="_blank") @detailing_rud
+
+
+div(class="modal fade" id="offerModal" tabindex="-1" role="dialog"  aria-hidden="true")
+    div(class="modal-dialog" role="document")
+        div.modal-content
+            div.modal-header
+                button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                    i(class="fa fa-times")
+
+            div(class="modal-body pb-5")
+                .heading.text-center.w-100.heading-no-line
+                    h2.title
+                        | Специальное предложение
+                        br
+                        | от нашего Детейлинг Центра!
+                    .sub-title
+                        div.h5 Закажи осмотр авто на сайте и получи 5000 в подарок!*
+                        div.mb-5
+                            small *Предоставление услуг от "Детейлинг Рудь" на сумму 5000 рублей
+                        a.btn.btn-outline-primary.btn-lg(href="#callback") Заказать сейчас!

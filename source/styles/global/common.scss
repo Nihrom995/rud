@@ -28,3 +28,32 @@
   }
 
 }
+
+
+
+/*
+  Modal Price List
+*/
+
+  .modal-content{
+    background-color: #010101;
+    text-shadow: none;
+    color:$white;
+  }
+  .modal-header{
+    border-bottom: none;
+
+    .fa{
+      color:$white;
+    }
+  }
+  .table-bordered th{
+    font-weight: 700;
+  }
+  .table-bordered th, .table-bordered td{
+    border-color: $yellow !important;
+
+  }
+  .table-bordered td{
+    font-size: .95rem;
+  }

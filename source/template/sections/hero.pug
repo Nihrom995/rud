@@ -1,4 +1,4 @@
-section.hero(id="hero")
+section.hero.d-none.d-sm-block(id="hero")
     div(id="heroCarousel" class="carousel slide" data-ride="carousel")
         ol.carousel-indicators
             li(data-target="#heroCarousel" data-slide-to="0" class="active")
@@ -9,9 +9,9 @@ section.hero(id="hero")
         .carousel-inner
             .carousel-item.active
                 img(class="d-block w-100" src="images/slider/slide.jpg" data-holder-rendered="true")
-                .carousel-caption.d-none.d-md-block
+                .carousel-caption
                     h1.title
-                        |"ДетейлингРудь"
+                        |"Детейлинг Рудь"
                     p
                         |Eдинственная настоящая студия детейлинга
                         br
@@ -45,7 +45,7 @@ section.hero(id="hero")
 
 
 
-        .carousel-controls
+        .carousel-controls.d-none.d-sm-block
             a(class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev")
                 i(class="fa fa-long-arrow-left fa-2x" aria-hidden="true")
                 span.sr-only Previous
@@ -54,3 +54,12 @@ section.hero(id="hero")
                 i(class="fa fa-long-arrow-right fa-2x" aria-hidden="true")
                 span(class="sr-only") Next
 
+section.modile-block.d-block.d-sm-none.mt-9
+    .container
+        .row
+            .col-12
+                .heading.heading-no-line
+                    h2.title.text-center Cтудия "ДетейлингРудь"
+                    .sub-title.pl-0.text-center.
+                        Предлагаем профессиональные детейлинг-услуги в Благовещенске.
+                        Всё для молодости и красоты вашего автомобиля. Уделяем внимание каждой детали!

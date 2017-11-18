@@ -2,17 +2,40 @@ div(class="modal fade" id="priceModal" tabindex="-1" role="dialog"  aria-hidden=
     div(class="modal-dialog" role="document")
         div.modal-content
             div.modal-header
-<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
-</div>
-<div class="modal-body">
-    </div>
-    <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-    <button type="button" class="btn btn-primary">Save changes</button>
-    </div>
-    </div>
-    </div>
-</div>
+                h5(class="modal-title") Прайс-лист
+                button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                    i(class="fa fa-times")
+
+            div(class="modal-body")
+                table.table.table-bordered
+                    thead
+                        tr
+                            th Услуга
+                            th 1 класс
+                            th 2 класс
+                    body
+                        tr
+                            td Детейлинг полировка
+                            td 17000 руб. (все легковые)
+                            td 20000 руб. (кроссоверы и джипы)
+                        tr
+                            td Детейлинг химчистка
+                            td 17000 руб.
+                            td 22000 руб.
+                        tr
+                            td
+                                span(data-toggle="tooltip" data-placement="top" title="Зоны риска (капот, бампер, крылья, фары, ПТФ, полоса на крышу, стойки, зеркала, пленка под ручки)") Защитные плёнки для кузова
+                            td 60000 руб.
+                            td 75000 руб.
+                        tr
+                            td
+                                span(data-toggle="tooltip" data-placement="top" title='Премиальное керамическое покрытие EverGlass. Комплекс "Стандарт" 3 слоя') Керамика
+                            td 38000 руб.
+                            td 48000 руб.
+
+
+
+
+
+
+

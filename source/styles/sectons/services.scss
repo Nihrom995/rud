@@ -15,6 +15,16 @@
     li:last-child{
       border-bottom: none;
     }
+
+    .fa{
+      color:$white;
+      transition: .3s;
+
+
+      &:hover{
+        color:$yellow;
+      }
+    }
   }
 }
 
